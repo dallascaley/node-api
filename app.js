@@ -83,8 +83,11 @@ app.use(function (err, req, res, next) {
 
 // create express http server
 var server = http.createServer(app).listen(app.get('port'));
+var d = new Date();
+d.setHours(d.getHours()-7);
+var date = d.toISOString().replace(/\-/g,'').replace(/T/, '-').replace(/\..+/, '');
 console.log('\n'
-        + ldt(new Date()) 
+        + date
         + ' - Node.js server on Port ' + app.get('port')
         + ' - Application: '+ config.app.name
         + ' - Mode: ' + config.app.mode
