@@ -7,7 +7,7 @@ config.app.token_lifetime = 240; //in minutes
 
 var development = JSON.parse(JSON.stringify(config));
 development.app.mode = 'development';
-development.app.port = 3000;
+development.app.port = 3210;
 
 module.exports = {
 	development: development
