@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/api/getToken', function(req, res, next) {
-  res.render('');
+router.get('/', function(req, res, next) {
+  res.send('this is a test');
 });
 
 module.exports = router;

@@ -1,39 +1,17 @@
 {
   "name": "node-api",
-  "version": "0.0.1",
-  "description": "generic api for various applications",
-  "main": "app.js",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-  "author": "Dallas Caley",
-  "license": "ISC",
   "dependencies": {
-    "async": "0.1.0",
-    "authenticate": "0.1.*",
-    "bcrypt": "0.8.5",
     "body-parser": "~1.13.2",
-    "config": "0.4.*",
     "cookie-parser": "~1.3.5",
-    "cors": "2.5.*",
     "debug": "~2.2.0",
-    "express": "^4.13.3",
-    "express-jwt": "0.5.*",
-    "express-session": "1.9.*",
-    "forever-monitor": "1.5.x",
+    "express": "~4.13.1",
     "jade": "~1.11.0",
-    "jsonschema": "0.4.*",
-    "jsonwebtoken": "1.2.*",
-    "mongoose": "3.8.*",
-    "mongoskin": "1.4.*",
     "morgan": "~1.6.1",
-    "mysql": "2.6.*",
-    "serve-favicon": "~2.3.0",
-    "socket.io": "0.9.*",
-    "underscore": "1.5.*"
-  },
-  "env": {
-    "PYTHON": "/usr/bin/python"
+    "serve-favicon": "~2.3.0"
   }
 }
